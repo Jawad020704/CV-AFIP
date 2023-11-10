@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&display=swap');
+
+body {
+    margin: 0;
+    margin-top: 20px; /* Ajoute un espacement en haut de la page */
+    margin-bottom: 20px; /* Ajoute un espacement en bas de la page */
+    padding: 20px; /* Marge intérieure pour éviter que le contenu touche les bords */
+    font-family: 'Gabarito', sans-serif;
+    background-color: #f5f5f5; /* Couleur de fond douce */
+    color: #333; /* Couleur du texte */
+    line-height: 1.6; /* Interligne pour une meilleure lisibilité */
+    max-width: 800px; /* Limite la largeur maximale pour une meilleure lisibilité sur les grands écrans */
+    margin-left: auto; /* Centre le contenu sur de grands écrans */
+    margin-right: auto;
+    border: 2px solid black; /* Bordure noire, pas trop épaisse */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Ombre portée légère pour un effet de profondeur */
+}
+
+/* Ajout d'un peu de style aux titres pour les mettre en valeur */
+h1, h2, h3, h4, h5, h6 {
+    color: #002057; /* Une couleur cohérente pour les titres */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Amélioration de la lisibilité des paragraphes */
+p {
+    margin-bottom: 10px;
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.sidebar {
+    background-color: #f0f0f0; /* Couleur de fond de la barre latérale */
+    padding: 20px;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.contact-info i {
+    min-width: 20px;
+    margin-right: 10px;
+    color: #002057;
+}
+
+
+.atouts {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.atouts h3 {
+    color: #002057;
+    margin-bottom: 10px;
+}
+
+.atouts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.atouts li {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.atouts li:last-child {
+    border-bottom: none;
+}
+
+.atouts h4 {
+    color: #004080;
+    margin-bottom: 5px;
+}
+
+.atouts p {
+    margin: 0;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.langues {
+    margin-bottom: 20px;
+}
+
+.langues h2 {
+    color: #002057;
+    margin-bottom: 10px;
+}
+
+.langue {
+    margin-bottom: 10px;
+}
+
+.progress {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.progress-bar {
+    background-color: #004080;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.centres-dinterets {
+    margin-bottom: 20px;
+}
+
+.centres-dinterets h2 {
+    color: #002057;
+    margin-bottom: 15px;
+}
+
+.interet {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.interet i {
+    font-size: 1.5em;
+    margin-right: 10px;
+    color: #004080;
+}
+
+.interet h3 {
+    margin: 0 0 5px 0;
+    color: #002057;
+}
+
+.interet p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+
+.voyages-linguistiques {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.voyages-linguistiques h2 {
+    color: #002057;
+    margin-bottom: 10px;
+}
+
+.voyages-linguistiques ul {
+    list-style: none;
+    padding: 0;
+}
+
+.voyages-linguistiques li {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.voyages-linguistiques strong {
+    color: #004080;
+}
+
+
+.main-content {
+    padding: 20px;
+}
+
+.contact-info, .languages, .interests {
+    margin-bottom: 20px;
+}
+
+.contact-info li, .languages p, .interests p {
+    margin-bottom: 10px;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+.fa-phone {
+    color: #002057;
+}
+
+.cv-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nom {
+    font-size: 2em;
+    color: #002057;
+    margin: 0;
+}
+
+.titre-cv {
+    font-size: 1.2em;
+    color: #004080;
+    margin: 5px 0;
+}
+
+.profession {
+    font-size: 1.5em;
+    color: #002057;
+    margin: 10px 0;
+}
+
+.introduction {
+    font-size: 1em;
+    margin-top: 10px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.competences {
+    margin-bottom: 20px;
+}
+
+.competences h2 {
+    color: #002057;
+    margin-bottom: 15px;
+}
+
+.competence h3 {
+    color: #004080;
+    margin-bottom: 5px;
+}
+
+.competence p {
+    margin: 0;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.informatique {
+    margin-bottom: 20px;
+}
+
+.informatique h2 {
+    color: #002057;
+    margin-bottom: 10px;
+}
+
+.informatique ul {
+    list-style: none;
+    padding: 0;
+}
+
+.informatique li {
+    margin-bottom: 10px;
+}
+
+.informatique li strong {
+    color: #004080;
+    margin-right: 5px;
+}
+
+.informatique p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.diplomes-formations {
+    margin-bottom: 20px;
+}
+
+.diplomes-formations h2 {
+    color: #002057;
+    margin-bottom: 10px;
+}
+
+.diplomes-formations ul {
+    list-style: none;
+    padding: 0;
+}
+
+.diplomes-formations li {
+    margin-bottom: 10px;
+}
+
+.diplomes-formations li strong {
+    color: #004080;
+}
+
+.diplomes-formations .details {
+    font-size: 0.8em;
+    color: #555;
+}
+
+.experiences-professionnelles {
+    margin-bottom: 20px;
+}
+
+.experiences-professionnelles h2 {
+    color: #002057;
+    margin-bottom: 10px;
+}
+
+.experiences-professionnelles ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experiences-professionnelles li {
+    margin-bottom: 10px;
+}
+
+.experiences-professionnelles li strong {
+    color: #004080;
+}
+
+.experiences-professionnelles .details {
+    font-size: 0.8em;
+    color: #555;
+}
+
